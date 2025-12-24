@@ -26,9 +26,6 @@ DerivedData
 .env
 .env.*
 
-# Logs
-*.log
-
 # Android/IntelliJ
 #
 build/
