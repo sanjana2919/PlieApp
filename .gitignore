@@ -22,6 +22,13 @@ DerivedData
 *.xcuserstate
 **/.xcode.env.local
 
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
 # Android/IntelliJ
 #
 build/
@@ -34,6 +41,9 @@ local.properties
 *.keystore
 !debug.keystore
 .kotlin/
+
+# Android build outputs
+android/app/build/
 
 # node.js
 #
@@ -73,3 +83,6 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# iOS build outputs
+ios/build/
